@@ -1220,3 +1220,17 @@ Correction to the initial P19 entry: its placeholder time was `00:00`; the work 
 - Decisions and assumptions: Commit and push from the temporary clone, whose history starts at the existing remote commit; never force-push or include the source branch's prohibited historical notebooks.
 - Remaining work / exact stopping point: Validate the snapshot, commit it in the temporary clone, and attempt a normal push to main. Record the actual push result and final status.
 
+
+## [2026-11-01 15:58] Step P30: Record earthLens GitHub publication
+- Status: PARTIAL
+- Files created or modified: DEVELOPMENT_LOGS.md.
+- Summary of work completed (3–8 lines):
+  - Pushed the current tracked earthLens project snapshot to the existing GitHub main branch as commit 4226e16.
+  - Preserved the existing remote initial commit with a normal fast-forward push; no force push was used.
+  - Excluded prohibited directories, key files, model artifacts, and the unrelated untracked image from the published snapshot.
+  - Leak and language checks passed against the committed snapshot.
+  - The complete scripts/check.ps1 suite remains unverified because it stalled without output and was interrupted.
+- Commands executed and test results: Push succeeded (7b4783..4226e16 main -> main); leak check passed; language check passed; full project check stalled after 30 seconds with no output.
+- Decisions and assumptions: Use a clean snapshot based on the destination's existing main branch because the source history includes prohibited historical notebooks.
+- Remaining work / exact stopping point: GitHub contains the published snapshot. Full test verification remains outstanding; the source repository's Git metadata is read-only here, so the log correction will be committed and pushed from the temporary clone.
+
