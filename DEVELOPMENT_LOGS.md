@@ -1271,3 +1271,25 @@ Correction to the initial P19 entry: its placeholder time was `00:00`; the work 
 - Commands executed and test results: Git push succeeded; leak and language checks passed; full check script stalled and was interrupted.
 - Decisions and assumptions: Keep the repository history intact; no force push or credential changes.
 - Remaining work / exact stopping point: The earthLens project and publication log are on GitHub main. Full test verification remains outstanding.
+
+## [2026-11-01 16:05] Step P34: Remove duplicate header title and capitalize EARTHLENS
+- Status: PARTIAL
+- Files created or modified: app.py, api.py, ui/navigation.py, ui/map_view.py, ui/theme.py, README.md, attacker/README.md, AGENTS.md, tests/test_map_view.py, DEVELOPMENT_LOGS.md.
+- Summary of work completed (3–8 lines):
+  - Removed the repeated current-page title from the shared top strip while keeping the page heading in the page body.
+  - Capitalized the EARTHLENS brand in the dashboard, sidebar, map overlay, API metadata, and project guides.
+  - Updated the map rendering assertion for the uppercase brand.
+- Commands executed and test results: Seven map-view tests passed. A combined map and app-smoke run stalled after partial output and was interrupted; the mandatory full check is still to be run.
+- Decisions and assumptions: Keep the workspace breadcrumb and single page heading; apply the capitalization to visible brand references while retaining lowercase path slugs.
+- Remaining work / exact stopping point: Run scripts/check.ps1, record the actual result, then publish the changes to GitHub main using a normal fast-forward.
+
+## [2026-11-01 16:07] Step P35: Record checks and publish header refinement
+- Status: PARTIAL
+- Files created or modified: DEVELOPMENT_LOGS.md.
+- Summary of work completed (3–8 lines):
+  - The required scripts/check.ps1 run stalled without output for 30 seconds and was interrupted.
+  - Seven tests in tests/test_map_view.py pass; leak and language checks are still required on the publish snapshot.
+  - The header cleanup and uppercase EARTHLENS branding are ready to publish.
+- Commands executed and test results: Full check script produced no output and did not complete; targeted map tests passed.
+- Decisions and assumptions: Publish from a temporary clone because this workspace does not allow writing the source Git metadata; preserve main with a normal fast-forward.
+- Remaining work / exact stopping point: Copy the reviewed edits and this log entry into a fresh clone, run leak/language checks, commit, and push to main.

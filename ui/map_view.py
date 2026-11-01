@@ -265,7 +265,7 @@ def build_map(
         '@media(max-width:700px){.tp-workspace-card{top:104px;left:12px;right:12px;width:auto}}'
         '@keyframes tp-pulse{0%,100%{box-shadow:0 0 0 3px rgba(229,72,77,.25);transform:scale(1)}'
         '50%{box-shadow:0 0 0 9px rgba(229,72,77,.02);transform:scale(1.08)}}</style>'
-        f'<div class="tp-map-title">earthLens · TUNISIA · {escape(basemap)}</div>'
+        f'<div class="tp-map-title">EARTHLENS · TUNISIA · {escape(basemap)}</div>'
         f'<div class="tp-map-legend">{"<b>RECORDED SESSION</b><br>" if recorded_session else ""}{status_legend()}</div>'
     ))
     map_object.get_root().html.add_child(folium.Element(

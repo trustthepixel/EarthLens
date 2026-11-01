@@ -1,6 +1,6 @@
 # EARTHLENS
 
-earthLens is a Streamlit platform for checking the integrity of Sentinel-2 L2A satellite-image chips. It combines a map-based dashboard, a FastAPI ground station, an ONNX image detector loaded from Hugging Face, cryptographic source verification, and image forensics.
+EARTHLENS is a Streamlit platform for checking the integrity of Sentinel-2 L2A satellite-image chips. It combines a map-based dashboard, a FastAPI ground station, an ONNX image detector loaded from Hugging Face, cryptographic source verification, and image forensics.
 
 The dashboard provides area analysis and live monitoring, plus workspaces for image processing, controlled attack demonstrations, forensics and verification, audit events, model evaluation, and system status. The live area input is fixed at **256 × 256 pixels at 10 m resolution** (2.56 km square), matching the model contract.
 
@@ -24,8 +24,8 @@ For local backend analysis, the dashboard and API run as separate processes on t
 Use Python 3.12 and PowerShell. Open the project folder in PowerShell. If you are cloning the repository, replace the repository URL below with the GitHub URL you use:
 
 ```powershell
-git clone <repository-url> earthLens
-cd earthLens
+git clone <repository-url> EARTHLENS
+cd EARTHLENS
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
 .\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt

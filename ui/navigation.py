@@ -1,4 +1,4 @@
-"""earthLens sidebar destinations, rendered by Streamlit."""
+"""EARTHLENS sidebar destinations, rendered by Streamlit."""
 
 from __future__ import annotations
 
@@ -67,7 +67,7 @@ def render(*, model_text: str, internet_text: str, api_text: str) -> str:
         with brand:
             st.image(str(logo), width=40)
         with name:
-            st.markdown('<div class="tp-title">earthLens</div>', unsafe_allow_html=True)
+            st.markdown('<div class="tp-title">EARTHLENS</div>', unsafe_allow_html=True)
 
         with st.container(key="tp-navigation"):
             for group, pages in NAV_GROUPS.items():

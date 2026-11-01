@@ -33,7 +33,7 @@ _event_lock = threading.Lock()
 _event_id = 0
 _pipeline: TrustPipeline | None = None
 _startup_error: str | None = None
-app = FastAPI(title='earthLens Ground Station', version='0.1.0')
+app = FastAPI(title='EARTHLENS Ground Station', version='0.1.0')
 
 
 def load_trusted_keys(directory: str | Path = 'trusted_keys') -> dict[str, Ed25519PublicKey]:

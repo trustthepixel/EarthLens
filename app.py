@@ -20,7 +20,7 @@ from ui import map_view, navigation, panel_analyze, panel_kernel_analysis, panel
 
 
 st.set_page_config(
-    page_title="earthLens",
+    page_title="EARTHLENS",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -187,8 +187,7 @@ with st.container(key="tp-topbar"):
     top_left, top_right = st.columns([1.7, 1.0], vertical_alignment="center")
     with top_left:
         st.markdown(
-            '<div class="tp-topbar-crumb">earthLens <span>›</span> WORKSPACE</div>'
-            f'<div class="tp-topbar-title">{workspace_page}</div>',
+            '<div class="tp-topbar-crumb">EARTHLENS <span>›</span> WORKSPACE</div>',
             unsafe_allow_html=True,
         )
     with top_right:

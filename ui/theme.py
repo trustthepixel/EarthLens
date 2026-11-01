@@ -47,7 +47,6 @@ html, body, .stApp { background: var(--tp-bg); color: var(--tp-text); }
 .st-key-tp-topbar { display:block; margin:-1.6rem -1.65rem 1.2rem; padding:.7rem 1.65rem .65rem; border-bottom:1px solid #253548; background:#080D14; }
 .tp-topbar-crumb { color:#7890A6; font-size:.59rem; font-weight:750; letter-spacing:.2em; }
 .tp-topbar-crumb span { color:#A6F36A; padding:0 .28rem; }
-.tp-topbar-title { color:#EAF1F7; font-size:1.05rem; margin-top:.15rem; }
 .tp-topbar-right { display:flex; align-items:center; justify-content:flex-end; gap:1rem; color:#8EA4B7; font-size:.68rem; letter-spacing:.09em; }
 .tp-ground-status { white-space:nowrap; }
 .tp-ground-status i { display:inline-block; width:7px; height:7px; margin-right:.5rem; border-radius:50%; background:#F4B942; }

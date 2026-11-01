@@ -1,10 +1,10 @@
-# earthLens Attack Lab
+# EARTHLENS Attack Lab
 
-The `attacker/` tools generate controlled test packets and, optionally, modify those packets in an isolated proxy lab. They let you see how the earthLens ground station handles changes to image pixels, signed metadata, signatures, and replayed packets.
+The `attacker/` tools generate controlled test packets and, optionally, modify those packets in an isolated proxy lab. They let you see how the EARTHLENS ground station handles changes to image pixels, signed metadata, signatures, and replayed packets.
 
 This lab is for the project's prepared sample chips and a ground-station API that you operate. It does not attack Copernicus, access satellite communications, or authorize testing other systems. The scenario name sent with a packet is a sender-provided label, not proof that the named change occurred.
 
-For dashboard installation, API setup, and the three configured-service checks, see the root [earthLens README](../README.md). This guide assumes the model is ready, the local source keypair is provisioned, and the API trusts its matching public key.
+For dashboard installation, API setup, and the three configured-service checks, see the root [EARTHLENS README](../README.md). This guide assumes the model is ready, the local source keypair is provisioned, and the API trusts its matching public key.
 
 ## Packet flow
 
@@ -12,7 +12,7 @@ For dashboard installation, API setup, and the three configured-service checks, 
 Prepared sample chip
         │
         ▼
-Windows feed signs packet ──► optional Kali proxy alters test packet ──► earthLens API
+Windows feed signs packet ──► optional Kali proxy alters test packet ──► EARTHLENS API
                                                                                │
                                                                                ▼
                                                                   verification and ONNX result
@@ -60,7 +60,7 @@ $env:HF_MODEL_REPO = "trustthepixel/trust-the-pixel-detector"
 Binding to `0.0.0.0` exposes the API on the host's network interfaces. Keep the VM on the private host-only network and, if Windows Firewall requires a rule, restrict TCP port 8000 to `192.168.56.0/24`:
 
 ```powershell
-New-NetFirewallRule -DisplayName "earthLens host-only API" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 8000 -RemoteAddress 192.168.56.0/24
+New-NetFirewallRule -DisplayName "EARTHLENS host-only API" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 8000 -RemoteAddress 192.168.56.0/24
 ```
 
 Keep the API terminal open. Check `http://127.0.0.1:8000/health` from Windows and confirm `ok` is `True` and `trusted_keys` is at least `1`. The dashboard should use the Windows host-only URL for this setup; configure its `TP_API_URL` as `http://192.168.56.1:8000/health` in the Streamlit PowerShell window before starting Streamlit.
@@ -135,7 +135,7 @@ In a Windows PowerShell window, send a short Beja feed through the Kali proxy:
 .\.venv\Scripts\python.exe -m attacker.feed --url http://192.168.56.101:8080/ingest --places Beja --interval 4 --count 3
 ```
 
-Watch **Live monitor** in earthLens. The API records its computed verification and model evidence. `assumed_mode` and `X-Attack-Mode` are supplied by the test feed/proxy and are labels only.
+Watch **Live monitor** in EARTHLENS. The API records its computed verification and model evidence. `assumed_mode` and `X-Attack-Mode` are supplied by the test feed/proxy and are labels only.
 
 ### 7. Stop and reset
 

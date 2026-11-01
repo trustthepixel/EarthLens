@@ -1,8 +1,8 @@
-# AGENTS.md — Permanent Rules for the earthLens Project
+# AGENTS.md — Permanent Rules for the EARTHLENS Project
 
 ## 1. Project Context
 
-earthLens is a Streamlit dashboard for detecting tampering in Sentinel-2 L2A satellite images from Copernicus via Microsoft Planetary Computer. Some existing protocol, model, package, and repository identifiers retain their original `TP` or Trust the Pixel names for compatibility.
+EARTHLENS is a Streamlit dashboard for detecting tampering in Sentinel-2 L2A satellite images from Copernicus via Microsoft Planetary Computer. Some existing protocol, model, package, and repository identifiers retain their original `TP` or Trust the Pixel names for compatibility.
 
 - Model: U-Net exported to ONNX.
 - Model file: `model/detector.onnx`.

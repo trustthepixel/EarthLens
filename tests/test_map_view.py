@@ -64,7 +64,7 @@ def test_map_contains_one_base_layer_and_embedded_controls():
     html = map_object.get_root().render()
     assert map_object.location == [34.0, 9.5]
     assert "Coordinates" in html
-    assert "earthLens" in html
+    assert "EARTHLENS" in html
     assert "TRUSTED" in html and "SUSPICIOUS" in html and "COMPROMISED" in html
     assert "NOT ANALYZED" in html
     assert "L.divIcon" in html
