@@ -1327,3 +1327,14 @@ Correction to the initial P19 entry: its placeholder time was `00:00`; the work 
 - Commands executed and test results: Focused map tests passed; full check timed out without output.
 - Decisions and assumptions: Publish the small styling change with the actual check outcome recorded.
 - Remaining work / exact stopping point: Push ui/theme.py and this log update to GitHub main as a normal fast-forward.
+
+## [2026-11-01 16:16] Step P39: Confirm uppercase safeguard publication
+- Status: PARTIAL
+- Files created or modified: DEVELOPMENT_LOGS.md.
+- Summary of work completed (3–8 lines):
+  - Pushed the sidebar uppercase text-transform safeguard to GitHub main as commit 8a0bf55.
+  - Leak and language checks passed on the publication snapshot.
+  - Seven map-view tests passed; the full check script stalled without output.
+- Commands executed and test results: Push succeeded as a normal fast-forward; leak check and language check passed; focused map test module passed.
+- Decisions and assumptions: The user's screenshot showed a local Streamlit session; refresh/restart that session to load the updated source.
+- Remaining work / exact stopping point: The uppercase sidebar brand safeguard is published. Full test verification remains outstanding.
