@@ -1247,3 +1247,15 @@ Correction to the initial P19 entry: its placeholder time was `00:00`; the work 
 - Decisions and assumptions: No force push or credential changes were used.
 - Remaining work / exact stopping point: The requested project is published at https://github.com/trustthepixel/EarthLens on main; run the full test suite in an environment where it completes.
 
+
+## [2026-11-01 16:00] Step P32: Clarify final remote commit record
+- Status: PARTIAL
+- Files created or modified: DEVELOPMENT_LOGS.md.
+- Summary of work completed (3–8 lines):
+  - The final GitHub main branch commit is 01b2e6035e0818f00ce0a8ee125adc1e69e9f75b.
+  - This entry clarifies the final commit reference in the preceding publication log entry.
+  - The project snapshot was published without protected paths or the unrelated untracked image.
+  - Leak and language checks passed; the complete check script did not finish in this environment.
+- Commands executed and test results: The previous push returned success; a separately approved remote-ref check confirmed the commit hash above.
+- Decisions and assumptions: Preserve the existing remote history; no force push or credential changes.
+- Remaining work / exact stopping point: Push this final log clarification as a fast-forward. The full test suite remains unverified.
