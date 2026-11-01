@@ -1293,3 +1293,15 @@ Correction to the initial P19 entry: its placeholder time was `00:00`; the work 
 - Commands executed and test results: Full check script produced no output and did not complete; targeted map tests passed.
 - Decisions and assumptions: Publish from a temporary clone because this workspace does not allow writing the source Git metadata; preserve main with a normal fast-forward.
 - Remaining work / exact stopping point: Copy the reviewed edits and this log entry into a fresh clone, run leak/language checks, commit, and push to main.
+
+## [2026-11-01 16:09] Step P36: Confirm header update publication
+- Status: PARTIAL
+- Files created or modified: DEVELOPMENT_LOGS.md.
+- Summary of work completed (3–8 lines):
+  - Pushed the duplicate-header cleanup and uppercase EARTHLENS branding to GitHub main as commit 82f935f.
+  - Preserved the destination history with a normal fast-forward push.
+  - Seven map-view tests passed; leak, language, and staged-diff checks passed.
+  - The full check script and combined app-smoke run stalled in this environment, so complete test verification remains outstanding.
+- Commands executed and test results: Git push succeeded; seven map-view tests passed; leak check passed; language check passed; full test suite did not complete.
+- Decisions and assumptions: Keep the page heading in the body and remove only its duplicate from the top strip.
+- Remaining work / exact stopping point: The requested UI update is published on main. Full test verification remains outstanding.
