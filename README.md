@@ -1,4 +1,4 @@
-# earthLens
+# EARTHLENS
 
 earthLens is a Streamlit platform for checking the integrity of Sentinel-2 L2A satellite-image chips. It combines a map-based dashboard, a FastAPI ground station, an ONNX image detector loaded from Hugging Face, cryptographic source verification, and image forensics.
 
