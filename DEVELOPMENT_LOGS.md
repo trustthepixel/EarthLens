@@ -1305,3 +1305,25 @@ Correction to the initial P19 entry: its placeholder time was `00:00`; the work 
 - Commands executed and test results: Git push succeeded; seven map-view tests passed; leak check passed; language check passed; full test suite did not complete.
 - Decisions and assumptions: Keep the page heading in the body and remove only its duplicate from the top strip.
 - Remaining work / exact stopping point: The requested UI update is published on main. Full test verification remains outstanding.
+
+## [2026-11-01 16:12] Step P37: Enforce uppercase sidebar brand
+- Status: PARTIAL
+- Files created or modified: ui/theme.py, DEVELOPMENT_LOGS.md.
+- Summary of work completed (3–8 lines):
+  - Added uppercase text transformation to the sidebar brand style as a display-level safeguard.
+  - Confirmed sidebar markup itself contains the exact EARTHLENS spelling.
+  - No Streamlit server was listening on port 8501 during the check.
+- Commands executed and test results: Seven map-view tests passed with one third-party deprecation warning; app server check found no listener; mandatory full check remains to be run.
+- Decisions and assumptions: Keep the brand text literal in uppercase and enforce uppercase in sidebar styling.
+- Remaining work / exact stopping point: Run scripts/check.ps1, then push the styling safeguard and log update to GitHub main.
+
+## [2026-11-01 16:14] Step P38: Record full-check stall and final casing fix
+- Status: PARTIAL
+- Files created or modified: DEVELOPMENT_LOGS.md.
+- Summary of work completed (3–8 lines):
+  - The mandatory scripts/check.ps1 run produced no output for 35 seconds and was interrupted.
+  - The focused map-view test module passes all seven tests.
+  - The final sidebar CSS casing safeguard is ready to publish.
+- Commands executed and test results: Focused map tests passed; full check timed out without output.
+- Decisions and assumptions: Publish the small styling change with the actual check outcome recorded.
+- Remaining work / exact stopping point: Push ui/theme.py and this log update to GitHub main as a normal fast-forward.

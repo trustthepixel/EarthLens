@@ -59,7 +59,7 @@ html, body, .stApp { background: var(--tp-bg); color: var(--tp-text); }
 section.main, [data-testid="stMain"] { padding: 0 !important; margin: 0 !important; }
 [data-testid="stCustomComponentV1"] { height: 86vh !important; min-height: 620px; }
 [data-testid="stCustomComponentV1"] iframe { height: 86vh !important; min-height: 620px; }
-.tp-title { color: #EAF1F7; font-size: .92rem; font-weight: 750; letter-spacing: .14em; }
+.tp-title { color: #EAF1F7; font-size: .92rem; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; }
 .tp-nav-heading { color:#61788E; font-size:.59rem; font-weight:750; letter-spacing:.2em; text-transform:uppercase; margin:1.1rem .6rem .38rem; }
 .tp-page-heading { color:#EAF1F7; font-size:.78rem; font-weight:650; letter-spacing:.04em; margin:.1rem 0 .65rem; }
 .tp-workspace-header { padding:.3rem 1.05rem 1.35rem; margin:0 0 1.35rem; border-bottom:1px solid #2A3C4F; }
