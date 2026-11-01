@@ -1234,3 +1234,16 @@ Correction to the initial P19 entry: its placeholder time was `00:00`; the work 
 - Decisions and assumptions: Use a clean snapshot based on the destination's existing main branch because the source history includes prohibited historical notebooks.
 - Remaining work / exact stopping point: GitHub contains the published snapshot. Full test verification remains outstanding; the source repository's Git metadata is read-only here, so the log correction will be committed and pushed from the temporary clone.
 
+
+## [2026-11-01 15:58] Step P31: Confirm publication and record stopping point
+- Status: PARTIAL
+- Files created or modified: DEVELOPMENT_LOGS.md.
+- Summary of work completed (3–8 lines):
+  - Confirmed the final publication log update was committed as 142980 and pushed to the GitHub main branch.
+  - The published project snapshot remains based on the destination's original commit and contains no prohibited paths.
+  - Leak and language checks passed after the final log update.
+  - Full test-suite verification remains incomplete because scripts/check.ps1 stalled without output.
+- Commands executed and test results: Final log push succeeded (4226e16..b142980 main -> main); leak check passed; language check passed; full suite remains unverified.
+- Decisions and assumptions: No force push or credential changes were used.
+- Remaining work / exact stopping point: The requested project is published at https://github.com/trustthepixel/EarthLens on main; run the full test suite in an environment where it completes.
+
