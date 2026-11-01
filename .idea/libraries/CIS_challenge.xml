@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="CIS challenge">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/trust-the-pixel-main.zip!/" />
+      <root url="jar://$PROJECT_DIR$/hagging face.zip!/" />
+      <root url="jar://$PROJECT_DIR$/model.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

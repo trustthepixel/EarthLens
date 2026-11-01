@@ -1,0 +1,309 @@
+{
+  "places": [
+    {
+      "place": "Tunis",
+      "center": [
+        10.2,
+        36.85
+      ],
+      "foreign": false,
+      "chip_count": 13
+    },
+    {
+      "place": "Beja",
+      "center": [
+        9.18,
+        36.73
+      ],
+      "foreign": false,
+      "chip_count": 7
+    },
+    {
+      "place": "Kairouan",
+      "center": [
+        10.1,
+        35.68
+      ],
+      "foreign": false,
+      "chip_count": 0
+    },
+    {
+      "place": "Sfax",
+      "center": [
+        10.74,
+        34.74
+      ],
+      "foreign": false,
+      "chip_count": 0
+    },
+    {
+      "place": "Tozeur",
+      "center": [
+        8.13,
+        33.92
+      ],
+      "foreign": false,
+      "chip_count": 0
+    },
+    {
+      "place": "Gabes",
+      "center": [
+        10.14,
+        33.88
+      ],
+      "foreign": false,
+      "chip_count": 0
+    },
+    {
+      "place": "Sicily",
+      "center": [
+        14.3,
+        37.55
+      ],
+      "foreign": true,
+      "chip_count": 0
+    }
+  ],
+  "entries": [
+    {
+      "place": "Beja",
+      "center": [
+        9.024010451434973,
+        36.86953597140042
+      ],
+      "file": "samples/chip_000.npy",
+      "metadata": "samples/chip_000.json",
+      "date": "2023-10-10",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Beja",
+      "center": [
+        9.016791795177118,
+        36.695732634477174
+      ],
+      "file": "samples/chip_001.npy",
+      "metadata": "samples/chip_001.json",
+      "date": "2023-10-10",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Beja",
+      "center": [
+        9.048735460554603,
+        36.934613656798405
+      ],
+      "file": "samples/chip_002.npy",
+      "metadata": "samples/chip_002.json",
+      "date": "2023-10-10",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Beja",
+      "center": [
+        9.048325067025763,
+        36.63929052391276
+      ],
+      "file": "samples/chip_005.npy",
+      "metadata": "samples/chip_005.json",
+      "date": "2023-10-10",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Beja",
+      "center": [
+        9.01568058452849,
+        36.73629966211787
+      ],
+      "file": "samples/chip_010.npy",
+      "metadata": "samples/chip_010.json",
+      "date": "2023-10-10",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Beja",
+      "center": [
+        9.055368271905605,
+        36.789475071496156
+      ],
+      "file": "samples/chip_015.npy",
+      "metadata": "samples/chip_015.json",
+      "date": "2023-10-10",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Beja",
+      "center": [
+        9.04655695754074,
+        36.675351026652486
+      ],
+      "file": "samples/chip_020.npy",
+      "metadata": "samples/chip_020.json",
+      "date": "2023-10-10",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.387918820318323,
+        36.64924361389734
+      ],
+      "file": "samples/chip_024.npy",
+      "metadata": "samples/chip_024.json",
+      "date": "2023-09-07",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.299058831721352,
+        36.92589688585556
+      ],
+      "file": "samples/chip_025.npy",
+      "metadata": "samples/chip_025.json",
+      "date": "2023-09-07",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.43658487658206,
+        36.631359360029016
+      ],
+      "file": "samples/chip_026.npy",
+      "metadata": "samples/chip_026.json",
+      "date": "2023-09-07",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.341739466349662,
+        36.65698420491662
+      ],
+      "file": "samples/chip_030.npy",
+      "metadata": "samples/chip_030.json",
+      "date": "2023-09-07",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.268736122005292,
+        36.91180239112984
+      ],
+      "file": "samples/chip_035.npy",
+      "metadata": "samples/chip_035.json",
+      "date": "2023-09-07",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.188949124942958,
+        36.61587925990516
+      ],
+      "file": "samples/chip_040.npy",
+      "metadata": "samples/chip_040.json",
+      "date": "2023-09-07",
+      "cloudy": false,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.25521169989105,
+        36.66117279140006
+      ],
+      "file": "samples/chip_041.npy",
+      "metadata": "samples/chip_041.json",
+      "date": "2024-04-17",
+      "cloudy": true,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.174084657783748,
+        36.78567651811282
+      ],
+      "file": "samples/chip_042.npy",
+      "metadata": "samples/chip_042.json",
+      "date": "2024-04-17",
+      "cloudy": true,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.277979681324508,
+        36.630642529024634
+      ],
+      "file": "samples/chip_043.npy",
+      "metadata": "samples/chip_043.json",
+      "date": "2024-04-17",
+      "cloudy": true,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.171540105769608,
+        36.61821518253582
+      ],
+      "file": "samples/chip_045.npy",
+      "metadata": "samples/chip_045.json",
+      "date": "2024-04-17",
+      "cloudy": true,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.291217932269246,
+        36.86036085574444
+      ],
+      "file": "samples/chip_050.npy",
+      "metadata": "samples/chip_050.json",
+      "date": "2024-04-17",
+      "cloudy": true,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.15452527806659,
+        36.647047244441616
+      ],
+      "file": "samples/chip_055.npy",
+      "metadata": "samples/chip_055.json",
+      "date": "2024-04-17",
+      "cloudy": true,
+      "group": "held-out test split"
+    },
+    {
+      "place": "Tunis",
+      "center": [
+        10.315119311175124,
+        36.93275095049062
+      ],
+      "file": "samples/chip_060.npy",
+      "metadata": "samples/chip_060.json",
+      "date": "2023-02-14",
+      "cloudy": false,
+      "group": "held-out test split"
+    }
+  ]
+}

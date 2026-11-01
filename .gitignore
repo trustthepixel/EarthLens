@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.leakwords
+.streamlit/secrets.toml
+keys/
+trusted_keys/
+*.pem
+counter.txt
+counter.txt.chain
+*.chain
+*.seed.hex
+device_state.json
+*device_seed.h
+model/
+docs/
+legacy/
+data_raw/
+deploy/
+notebooks-anonymized (1)/
+trust-the-pixel-main/
+p23-image-processing/
+trust-the-pixel-redesign/
+hagging face/
+events.jsonl
+events_data/
+events_archive/
+attack_campaign.csv
+data_preparation.ipynb
+training.ipynb

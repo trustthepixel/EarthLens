@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An honest demonstration of Sentinel-2 image integrity checks.">
+  <title>Trust the Pixel | Satellite Image Integrity</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background: #0B1220; color: #E6EDF7; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 2rem; }
+    main { width: min(760px, 100%); padding: clamp(1.5rem, 5vw, 3rem); border: 1px solid #1E2A44; border-radius: 18px; background: #111A2E; box-shadow: 0 18px 50px #0005; }
+    h1 { margin: 0 0 .75rem; font-size: clamp(2rem, 6vw, 3.3rem); letter-spacing: -.04em; }
+    h2 { margin-top: 2rem; font-size: 1.1rem; }
+    p, li { color: #B9C6DB; line-height: 1.65; }
+    ol { padding-left: 1.25rem; }
+    .buttons { display: flex; flex-wrap: wrap; gap: .8rem; margin: 1.5rem 0; }
+    a.button { display: inline-block; padding: .8rem 1rem; border: 1px solid #4C8DFF; border-radius: 10px; color: #E6EDF7; text-decoration: none; }
+    a.primary { background: #4C8DFF; color: #06101F; font-weight: 700; }
+    .notice { margin-top: 1.5rem; padding: .9rem 1rem; border-left: 3px solid #4C8DFF; background: #0B1220; }
+    footer { margin-top: 2rem; color: #8FA1BF; font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Trust the Pixel</h1>
+    <ol aria-label="Project description">
+      <li>Explore integrity checks for Sentinel-2 Level-2A image chips.</li>
+      <li>Compare source signatures, image hashes, and model evidence.</li>
+      <li>Inspect simulated tampering scenarios and forensic maps.</li>
+      <li>Use local sample data when live satellite access is unavailable.</li>
+      <li>Review model metrics and operational limits before drawing conclusions.</li>
+    </ol>
+    <div class="buttons">
+      <a class="button primary" href="https://REPLACE-ME.streamlit.app">Open the dashboard</a>
+      <a class="button" href="https://huggingface.co/trustthepixel/trust-the-pixel-detector">Model on Hugging Face</a>
+    </div>
+    <section>
+      <h2>Limitations</h2>
+      <p>The signature is simulated at the source and is not a Copernicus signature. The model is statistical evidence, not proof of authenticity. Cloud, haze, unseen attack patterns, archive publication delays, and network outages can affect results. The archive comparison assumes the archive and its delivery path are intact.</p>
+    </section>
+    <p class="notice">Signature simulated at the source.</p>
+    <footer>Demonstration software for image-integrity research.</footer>
+  </main>
+</body>
+</html>

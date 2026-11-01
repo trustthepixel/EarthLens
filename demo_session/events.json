@@ -1,0 +1,196 @@
+{
+  "events": [
+    {
+      "event_id": 1,
+      "seq": 0,
+      "time_utc": "2026-10-28T10:49:16.691213+00:00",
+      "status": "TRUSTED",
+      "status_raw": "TRUSTED",
+      "reasons": [
+        "Input warning: product level is unknown.",
+        "Input warning: processing baseline is missing."
+      ],
+      "score": -1.2628922066092492,
+      "trust": 79.34222390459257,
+      "provenance": "VALID",
+      "integrity": "PASS",
+      "replay": false,
+      "changed_tiles": [],
+      "lon": 9.024010451434973,
+      "lat": 36.86953597140042,
+      "place": "Beja",
+      "scene": "S2A_MSIL2A_20231010T100931_R022_T32SMF_20231010T171201",
+      "date": "2023-10-10",
+      "window": [
+        1836,
+        10090
+      ],
+      "plausible": true,
+      "t_low": 2.777665138244629,
+      "t_high": 6.8766045570373535,
+      "assumed_mode": "recorded-demo",
+      "rgb_image": "1_rgb.png",
+      "heat_image": "1_heat.png"
+    },
+    {
+      "event_id": 2,
+      "seq": 1,
+      "time_utc": "2026-10-28T10:49:17.075435+00:00",
+      "status": "TRUSTED",
+      "status_raw": "TRUSTED",
+      "reasons": [
+        "Input warning: product level is unknown.",
+        "Input warning: processing baseline is missing."
+      ],
+      "score": -1.8746368438005447,
+      "trust": 83.92413553586957,
+      "provenance": "VALID",
+      "integrity": "PASS",
+      "replay": false,
+      "changed_tiles": [],
+      "lon": 10.387918820318323,
+      "lat": 36.64924361389734,
+      "place": "Tunis",
+      "scene": "S2A_MSIL2A_20230907T100031_R122_T32SPF_20230907T211101",
+      "date": "2023-09-07",
+      "window": [
+        4190,
+        2278
+      ],
+      "plausible": true,
+      "t_low": 2.777665138244629,
+      "t_high": 6.8766045570373535,
+      "assumed_mode": "recorded-demo",
+      "rgb_image": "2_rgb.png",
+      "heat_image": "2_heat.png"
+    },
+    {
+      "event_id": 3,
+      "seq": 2,
+      "time_utc": "2026-10-28T10:49:17.421608+00:00",
+      "status": "TRUSTED",
+      "status_raw": "TRUSTED",
+      "reasons": [
+        "Input warning: product level is unknown.",
+        "Input warning: processing baseline is missing."
+      ],
+      "score": -1.1493263605237007,
+      "trust": 78.39274141982867,
+      "provenance": "VALID",
+      "integrity": "PASS",
+      "replay": false,
+      "changed_tiles": [],
+      "lon": 9.016791795177118,
+      "lat": 36.695732634477174,
+      "place": "Beja",
+      "scene": "S2A_MSIL2A_20231010T100931_R022_T32SMF_20231010T171201",
+      "date": "2023-10-10",
+      "window": [
+        3764,
+        10026
+      ],
+      "plausible": true,
+      "t_low": 2.777665138244629,
+      "t_high": 6.8766045570373535,
+      "assumed_mode": "recorded-demo",
+      "rgb_image": "3_rgb.png",
+      "heat_image": "3_heat.png"
+    },
+    {
+      "event_id": 4,
+      "seq": 3,
+      "time_utc": "2026-10-28T10:49:17.790418+00:00",
+      "status": "TRUSTED",
+      "status_raw": "TRUSTED",
+      "reasons": [
+        "Input warning: product level is unknown.",
+        "Input warning: processing baseline is missing."
+      ],
+      "score": -1.260028355717659,
+      "trust": 79.31866418364307,
+      "provenance": "VALID",
+      "integrity": "PASS",
+      "replay": false,
+      "changed_tiles": [],
+      "lon": 10.299058831721352,
+      "lat": 36.92589688585556,
+      "place": "Tunis",
+      "scene": "S2A_MSIL2A_20230907T100031_R122_T32SPF_20230907T211101",
+      "date": "2023-09-07",
+      "window": [
+        1132,
+        1442
+      ],
+      "plausible": true,
+      "t_low": 2.777665138244629,
+      "t_high": 6.8766045570373535,
+      "assumed_mode": "recorded-demo",
+      "rgb_image": "4_rgb.png",
+      "heat_image": "4_heat.png"
+    },
+    {
+      "event_id": 5,
+      "seq": 4,
+      "time_utc": "2026-10-28T10:49:18.141303+00:00",
+      "status": "TRUSTED",
+      "status_raw": "TRUSTED",
+      "reasons": [
+        "Input warning: product level is unknown.",
+        "Input warning: processing baseline is missing."
+      ],
+      "score": -1.5919304865598678,
+      "trust": 81.91736486190793,
+      "provenance": "VALID",
+      "integrity": "PASS",
+      "replay": false,
+      "changed_tiles": [],
+      "lon": 9.048735460554603,
+      "lat": 36.934613656798405,
+      "place": "Beja",
+      "scene": "S2A_MSIL2A_20231010T100931_R022_T32SMF_20231010T171201",
+      "date": "2023-10-10",
+      "window": [
+        1114,
+        10310
+      ],
+      "plausible": true,
+      "t_low": 2.777665138244629,
+      "t_high": 6.8766045570373535,
+      "assumed_mode": "recorded-demo",
+      "rgb_image": "5_rgb.png",
+      "heat_image": "5_heat.png"
+    },
+    {
+      "event_id": 6,
+      "seq": 5,
+      "time_utc": "2026-10-28T10:49:18.467299+00:00",
+      "status": "TRUSTED",
+      "status_raw": "TRUSTED",
+      "reasons": [
+        "Input warning: product level is unknown.",
+        "Input warning: processing baseline is missing."
+      ],
+      "score": -1.86949648976326,
+      "trust": 83.88931119760359,
+      "provenance": "VALID",
+      "integrity": "PASS",
+      "replay": false,
+      "changed_tiles": [],
+      "lon": 10.43658487658206,
+      "lat": 36.631359360029016,
+      "place": "unknown",
+      "scene": "S2A_MSIL2A_20230907T100031_R122_T32SPF_20230907T211101",
+      "date": "2023-09-07",
+      "window": [
+        4382,
+        2716
+      ],
+      "plausible": true,
+      "t_low": 2.777665138244629,
+      "t_high": 6.8766045570373535,
+      "assumed_mode": "recorded-demo",
+      "rgb_image": "6_rgb.png",
+      "heat_image": "6_heat.png"
+    }
+  ]
+}

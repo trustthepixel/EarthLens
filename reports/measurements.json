@@ -1,0 +1,42 @@
+{
+  "measured_at_utc": "2026-10-28T11:53:59Z",
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "sample_inputs": {
+    "available_unique_chips": 20,
+    "inference_runs": 50,
+    "cycled_when_needed": true
+  },
+  "onnx_latency": {
+    "n_runs": 50,
+    "mean_ms": 80.96087600020837,
+    "p95_ms": 87.87490000040634
+  },
+  "ground_verify": {
+    "n_runs": 50,
+    "mean_ms": 0.6234199997561518,
+    "p95_ms": 0.8414949996222274
+  },
+  "total_pipeline": {
+    "n_runs": 50,
+    "mean_ms": 201.18712799987406,
+    "p95_ms": 205.94365499928244
+  },
+  "dashboard_click_to_result": {
+    "prepared_chip_ms": 335.9,
+    "prepared_chip_measured_at_utc": "2026-10-28T11:53:19Z",
+    "live_chip_ms": 7478.4,
+    "live_chip_measured_at_utc": "2026-10-28T12:25:30Z",
+    "method": "One AppTest run per source; click-to-result session timer"
+  },
+  "peak_resident_memory_bytes": 261021696,
+  "peak_memory_method": "Windows process peak working set when available; otherwise sampled RSS during measured loops.",
+  "model_size": {
+    "bytes": 57383766,
+    "decimal_mb": 57.383766
+  },
+  "model_download_time_seconds": "not measured",
+  "notes": "Inference uses 50 runs, cycling through the local sample set when fewer than 50 unique chips are available. Each dashboard click-to-result time is one AppTest observation, not a performance guarantee."
+}
